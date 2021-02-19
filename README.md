@@ -6,7 +6,7 @@ This repository contains MATLAB (ver. R2018b) files that replicate the estimatio
 The code is based on the one provided by Su, C. and Judd, K. L. in the paper 
 "*Constrained Optimization Approaches to Estimation of Structural Models*" (2012). 
 Although the authors used *KNITRO*, fee-charging constrained optimization solver, to solve a single-agent dynamic discrete choice model, 
-I used the function *fmincon*, one of the MATLAB built-in functions and verified that the estimated parameters are close to the true parameters.
+I used the function *fmincon*, one of the MATLAB built-in functions and verified that the estimated parameters are very close to the true parameters.
 
 In the code, 
 a data set is generated given the parameter estimates in the third column of Table X in Rust(1987) as true parameters. 
